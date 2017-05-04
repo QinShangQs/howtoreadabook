@@ -12,6 +12,13 @@ Page({
       url: '../logs/logs'
     })
   },
+  showToast:function(){
+    wx.showToast({
+      title: '成功',
+      icon: 'success',
+      duration: 2000
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

@@ -7,4 +7,8 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+
+  <view class="">
+    <button bindtap="showToast">test</button>
+  </view>
 </view>
