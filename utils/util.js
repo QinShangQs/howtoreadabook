@@ -22,7 +22,7 @@ module.exports = {
 
 function ajax(_api, _data, _success, _fail, _complate){
   wx.request({
-    url: 'https://c4b64fed.ngrok.io/' + _api, //仅为示例，并非真实的接口地址
+    url: 'https://e80a8bc0.ngrok.io/' + _api, 
     data: _data,
     header: {
       'content-type': 'application/json',

@@ -12,11 +12,15 @@ Page({
     wx.navigateTo({
       url: '../logs/logs'
     });
-    
   },
   showToast:function(){
     wx.navigateTo({
       url: '../my/my'
+    });
+  },
+  showPay: function () {
+    wx.navigateTo({
+      url: '../pay/pay'
     });
   },
   onLoad: function () {

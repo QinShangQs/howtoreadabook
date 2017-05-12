@@ -13,4 +13,7 @@
   <view class="">
     <button bindtap="showToast">个人中心</button>
   </view>
+  <view class="">
+    <button bindtap="showPay">微信支付</button>
+  </view>
 </view>

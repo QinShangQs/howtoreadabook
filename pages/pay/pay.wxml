@@ -1,0 +1,20 @@
+<view>
+<view class="item" id="30" bindtap="topay">
+  <text class="money">30元</text><text class="icon">3000书币</text>
+</view>
+<view class="item" id="50" bindtap="topay">
+  <text class="money">50元</text><text class="icon">5000书币</text>
+</view>
+<view class="item" id="100" bindtap="topay">
+  <text class="money">100元</text><text class="icon">10000书币</text>
+</view>
+<view class="item" id="200" bindtap="topay">
+  <text class="money">200元</text><text class="icon">20000书币</text>
+</view>
+<view class="item" id="500" bindtap="topay">
+  <text class="money">500元</text><text class="icon">50000书币</text>
+</view>
+<view class="item" id="1000" bindtap="topay">
+  <text class="money">1000元</text><text class="icon">100000书币</text>
+</view>
+</view>

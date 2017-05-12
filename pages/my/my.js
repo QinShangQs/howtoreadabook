@@ -21,6 +21,10 @@ Page({
       that.setData({ amount: res.data.content.amount, hidden: true});
     });
   },
-
+  bindToPay: function () {
+    wx.navigateTo({
+      url: '../pay/pay'
+    });
+  },
  
 })

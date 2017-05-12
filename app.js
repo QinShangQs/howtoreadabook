@@ -19,11 +19,9 @@ App({
               console.info(res);
               that.globalData.userInfo = res.userInfo
               typeof cb == "function" && cb(that.globalData.userInfo)
-              console.log('code',lr.code);
-              console.log('encryptedData', res.encryptedData);
-              console.log('iv', res.iv);
+
               wx.request({
-                url: 'https://c4b64fed.ngrok.io/users/littleLogin',
+                url: 'https://e80a8bc0.ngrok.io/users/littleLogin',
                 data: {
                   code: lr.code, 
                   encryptedData: res.encryptedData,

@@ -1,0 +1,27 @@
+/* pay.wxss */
+page {
+  background-color: #F3F4F4;
+}
+
+.item{
+	height:56rpx;
+	padding:10rpx;
+	margin:10rpx;
+	border:1rpx solid gray;
+	background-color:#fff;
+	border-radius:10rpx;
+	font-size:14px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+.item .money{
+	width:100rpx;
+	border-right:1rpx solid gray;
+	margin-right:20rpx
+}
+
+.item .icon{
+  color:#18ae10
+}

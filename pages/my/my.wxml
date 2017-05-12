@@ -7,17 +7,17 @@
     <label>剩余书币</label>
     <text class="right">{{amount}}</text>
   </view>
- <view class="item">
+ <view class="item"  bindtap="bindToPay">
     <label>我要充值</label>
-    <image class="right-img" src="../images/jiantou.png"></image>
+    <image class="right-img" src="../../images/jiantou.png"></image>
   </view>
   <view class="item">
     <label>充值记录</label>
-    <image class="right-img" src="../images/jiantou.png"></image>
+    <image class="right-img" src="../../images/jiantou.png"></image>
   </view>
   <view class="item">
     <label>消费记录</label>
-    <image class="right-img" src="../images/jiantou.png"></image>
+    <image class="right-img" src="../../images/jiantou.png"></image>
   </view>
 
   <view>
