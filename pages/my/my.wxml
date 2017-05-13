@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="item">
+    <label>剩余书币</label>
+    <text class="right">{{amount}}</text>
+  </view>
+ <view class="item"  bindtap="bindToPay">
+    <label>我要充值</label>
+    <image class="right-img" src="../../images/jiantou.png"></image>
+  </view>
+  <view class="item">
+    <label>充值记录</label>
+    <image class="right-img" src="../../images/jiantou.png"></image>
+  </view>
+  <view class="item">
+    <label>消费记录</label>
+    <image class="right-img" src="../../images/jiantou.png"></image>
+  </view>
+
+  <view>
+    <loading hidden="{{hidden}}">
+      加载中...
+    </loading>
+  </view>
+</view>
